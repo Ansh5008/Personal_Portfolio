@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Lf1b0-slp8-bpuSuFa4ta"
+uri = "file://artifacts/portfolio/src/assets/projects/smart-ids.png"
+type = "image"
+title = "Abstract network traffic visualization"
+
+[[generated]]
+id = "rAYDD1ksvwwIHIFWMFpCw"
+uri = "file://artifacts/portfolio/src/assets/projects/lunar-landslide.png"
+type = "image"
+title = "Satellite moon surface analysis"
+
+[[generated]]
+id = "zBnIk3G44YFTwK0RzgTZW"
+uri = "file://artifacts/portfolio/src/assets/projects/image-captioning.png"
+type = "image"
+title = "Abstract neural network vision"
+
+[[generated]]
+id = "XG_tFNYIeFDKrRCkeD93n"
+uri = "file://artifacts/portfolio/src/assets/projects/cyber-surveillance.png"
+type = "image"
+title = "Minimalist security operations center"
+
+[[generated]]
+id = "owzjyIizu6o7KBY34-HsN"
+uri = "file://artifacts/portfolio/src/assets/projects/reverse-engineering.png"
+type = "image"
+title = "Binary code reverse engineering"
+
+[[generated]]
+id = "4clJ7EK-PdLwfAYXIyLd3"
+uri = "file://artifacts/portfolio/src/assets/projects/security-automation.png"
+type = "image"
+title = "Security automation gears shields"

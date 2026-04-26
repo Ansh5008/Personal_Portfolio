@@ -1,0 +1,14 @@
+John Doe
+Cybersecurity Researcher | AI Developer
+john.doe@example.com
+
+EXPERIENCE
+- Senior Security Engineer at Acme Corp (2022-Present)
+- AI Developer at TechNexus (2020-2022)
+
+EDUCATION
+- MS Computer Science, Stanford University
+- BS Computer Engineering, MIT
+
+SKILLS
+Python, C++, Go, Rust, Machine Learning, Reverse Engineering, Red Teaming, Vulnerability Research, Cloud Security (AWS/GCP).

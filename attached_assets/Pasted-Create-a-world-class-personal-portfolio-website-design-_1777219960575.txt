@@ -1,0 +1,174 @@
+Create a world-class personal portfolio website design in Stitch with a premium minimalist aesthetic, sharp layout structure, light theme, and modern neo-brutalism design language.
+
+The portfolio should feel bold, clean, intelligent, and unforgettable — combining minimal luxury with strong neo-brutalist visual identity. It should look like a high-end designer/developer portfolio with a futuristic product design feel.
+
+Core Design Style:
+
+* Premium minimalist design
+* Light theme first (white, soft gray, off-white backgrounds)
+* Sharp edges and strong layout structure
+* Modern neo-brutalism aesthetic
+* Bold typography with clean visual hierarchy
+* Strong contrast and structured sections
+* Thick borders where appropriate
+* Minimal but powerful use of shadows
+* Clean geometric spacing
+* Large confident headings
+* Editorial-style layout composition
+* Strong personality without visual clutter
+* Custom-built premium feel (not template-based)
+
+Visual Inspiration:
+
+* Neo-brutalism + Apple simplicity + Linear precision + Awwwards quality
+* Luxury startup landing pages
+* Premium product design systems
+* Modern portfolio websites with strong personal branding
+
+Avoid:
+
+* Generic portfolio templates
+* Excessive gradients
+* Heavy glassmorphism
+* Overuse of dark theme
+* Flashy effects
+* Visual noise
+
+Required Sections:
+
+1. Hero Section
+
+* Full-screen premium introduction
+* Large bold name with strong typography
+* Professional title:
+  Cybersecurity Researcher | AI Developer | Security Engineer
+* Short high-authority tagline
+* Strong CTA buttons:
+  View Projects
+  Contact Me
+  Download Resume
+* Sharp button design with bold borders
+* Minimal background with subtle motion
+* Elegant scroll indicator
+
+2. About Section
+
+* Personal introduction with strong storytelling
+* Clean professional profile section
+* Academic and research focus
+* Experience highlights
+* Elegant structured layout with asymmetric balance
+
+3. Skills Section
+   Create premium neo-brutalist skill cards for:
+
+* Cybersecurity
+* Ethical Hacking
+* AI / ML
+* Python Development
+* Threat Intelligence
+* Red Teaming
+* OSINT
+* Cloud Security
+* Vulnerability Research
+* Linux & Networking
+
+Cards should include:
+
+* bold outlines
+* sharp corners
+* clean icons
+* hover movement
+* structured premium layout
+
+4. Projects Section
+   Featured project showcase with premium project cards:
+
+* Smart IDS System
+* Lunar Landslide Detection using Chandrayaan Data
+* Image Captioning AI
+* Cyber Defense Surveillance Platform
+* Reverse Engineering Research
+* Security Automation Tools
+
+Each card should include:
+
+* bold image area
+* project title
+* short concise description
+* tech stack labels
+* GitHub button
+* Live demo button
+* subtle motion interactions
+
+5. Experience + Achievements Section
+   Elegant timeline layout for:
+
+* Research projects
+* Security work
+* Hackathons
+* CTFs
+* Certifications
+* Academic achievements
+
+Should feel premium, editorial, and highly structured
+
+6. Trust / Recognition Section
+   Minimal authority section with:
+
+* collaborations
+* recognition
+* research credibility
+* technical trust indicators
+
+7. Contact Section
+   Clean premium contact area:
+
+* Name
+* Email
+* Message
+
+Also include:
+
+* LinkedIn
+* GitHub
+* Resume Download
+* Professional contact details
+
+8. Footer
+   Minimal sharp footer with elegant structure
+
+Animation Style:
+
+* Smooth subtle motion only
+* Premium hover interactions
+* Scroll-triggered reveals
+* Text entrance animations
+* Card lift effects
+* Elegant transitions
+* Soft cursor interactions if possible
+* No flashy animations
+
+Typography:
+Use strong premium fonts like:
+
+* Inter
+* Neue Montreal
+* Satoshi
+* Geist
+* General Sans
+
+Typography should feel:
+
+* editorial
+* premium
+* sharp
+* highly readable
+* powerful
+
+Final Goal:
+The final Stitch portfolio should look like a top cybersecurity researcher and AI engineer’s elite personal brand website — highly professional, memorable, premium, and visually sharp.
+
+It should instantly impress recruiters, security teams, research organizations, and high-end tech companies.
+
+The result must feel custom-designed, minimal, light, sharp, and neo-brutalist with premium modern execution.
