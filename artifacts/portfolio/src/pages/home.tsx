@@ -63,7 +63,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 border-b-2 border-foreground bg-background/90 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="font-bold text-xl tracking-tighter">JD.</div>
+          <div className="font-bold text-xl tracking-tighter">AK.</div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
             <a href="#about" className="hover:text-primary transition-colors">About</a>
             <a href="#skills" className="hover:text-primary transition-colors">Capabilities</a>
@@ -95,18 +95,18 @@ export default function Home() {
               </motion.div>
               
               <motion.h1 variants={FADE_IN} className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.9] mb-8">
-                JOHN<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style={{ WebkitTextStroke: "2px currentColor" }}>DOE</span>
+                ANSH<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style={{ WebkitTextStroke: "2px currentColor" }}>KUMAR</span>
               </motion.h1>
               
               <motion.div variants={FADE_IN} className="flex flex-wrap gap-4 mb-8 text-lg md:text-xl font-medium tracking-tight">
-                <span className="bg-foreground text-background px-4 py-1 border-2 border-foreground">Cybersecurity Researcher</span>
-                <span className="border-2 border-foreground px-4 py-1">AI Developer</span>
-                <span className="bg-primary text-primary-foreground px-4 py-1 border-2 border-primary">Security Engineer</span>
+                <span className="bg-foreground text-background px-4 py-1 border-2 border-foreground">AI Security Researcher</span>
+                <span className="border-2 border-foreground px-4 py-1">CTF Enthusiast</span>
+                <span className="bg-primary text-primary-foreground px-4 py-1 border-2 border-primary">Security Tool Builder</span>
               </motion.div>
               
               <motion.p variants={FADE_IN} className="text-xl md:text-2xl max-w-2xl text-muted-foreground mb-12 leading-relaxed">
-                I dissect binaries, build neural networks, and fortify architectures. Bridging the gap between offensive security and artificial intelligence to construct resilient systems of tomorrow.
+                I build AI security systems and offensive-security tooling. At the intersection of adversarial machine learning and practical cyber defense — shipping tools that detect, test, and harden real-world systems.
               </motion.p>
               
               <motion.div variants={FADE_IN} className="flex flex-wrap gap-6">
@@ -127,15 +127,15 @@ export default function Home() {
               <div className="border-l-2 border-foreground pl-6 space-y-8">
                 <div>
                   <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">Location</h3>
-                  <p className="font-bold">San Francisco, CA</p>
+                  <p className="font-bold">New Delhi, India</p>
                 </div>
                 <div>
-                  <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">Clearance</h3>
-                  <p className="font-bold">Level 3 / Active</p>
+                  <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">CTF Rank</h3>
+                  <p className="font-bold">#21 Worldwide</p>
                 </div>
                 <div>
                   <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">Specialty</h3>
-                  <p className="font-bold">Adversarial ML</p>
+                  <p className="font-bold">LLM Security</p>
                 </div>
               </div>
             </div>
@@ -171,30 +171,30 @@ export default function Home() {
                 </motion.h2>
                 <motion.div variants={FADE_IN} className="space-y-6 text-lg text-muted-foreground">
                   <p>
-                    The perimeter is an illusion. In an era where machine learning models dictate critical infrastructure, the intersection of AI and security is the only frontier that matters.
+                    Security is not a product — it's a mindset. In a world where AI is woven into critical systems, the only researchers who matter are those who understand both the attack and the intelligence behind it.
                   </p>
                   <p>
-                    I spent my early career reverse-engineering legacy banking systems, discovering zero-days that could crash economies. Then, I pivoted to AI, building the very detection systems I used to bypass.
+                    I'm Ansh Kumar, an AI Security Researcher and CTF enthusiast based in New Delhi. I build tools at the intersection of Machine Learning and Cybersecurity — from ML-powered intrusion detection systems to vulnerability assessment CLIs and RAG retrieval audit frameworks.
                   </p>
                   <p>
-                    My methodology is simple: assume breach, model the adversary, and build intelligent defenses that adapt faster than the attacker. I don't just run tools; I build the tools that run the security operations of tomorrow.
+                    My methodology: map the adversary, model the threat, then build intelligent defenses that adapt. I don't just use tools — I engineer the systems that power tomorrow's security operations.
                   </p>
                 </motion.div>
                 
                 <motion.div variants={FADE_IN} className="mt-12 flex items-center gap-8 border-y-2 border-foreground py-6">
                   <div>
-                    <div className="text-4xl font-bold">14+</div>
-                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">CVEs Assigned</div>
+                    <div className="text-4xl font-bold">#21</div>
+                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Global CTF Rank</div>
                   </div>
                   <div className="w-[2px] h-12 bg-foreground" />
                   <div>
-                    <div className="text-4xl font-bold">5</div>
-                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Models Deployed</div>
+                    <div className="text-4xl font-bold">26+</div>
+                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Projects Built</div>
                   </div>
                   <div className="w-[2px] h-12 bg-foreground" />
                   <div>
-                    <div className="text-4xl font-bold">Defcon</div>
-                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Finalist 2023</div>
+                    <div className="text-4xl font-bold">EC-Council</div>
+                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Nexus AI CTF</div>
                   </div>
                 </motion.div>
               </div>
@@ -207,13 +207,15 @@ export default function Home() {
                   <p className="text-muted-foreground"># Execution Log</p>
                   <p><span className="text-primary">{`>`}</span> init user_profile</p>
                   <p className="text-green-600">[OK] Profile loaded</p>
-                  <p><span className="text-primary">{`>`}</span> fetch academic_records</p>
-                  <p>-- MS Computer Science (AI/ML), Stanford Univ.</p>
-                  <p>-- BS Computer Engineering, MIT</p>
-                  <p><span className="text-primary">{`>`}</span> scan current_focus</p>
+                  <p><span className="text-primary">{`>`}</span> fetch research_focus</p>
+                  <p>-- LLM Security & Adversarial ML</p>
+                  <p>-- Exploit Development & Vuln Analysis</p>
+                  <p><span className="text-primary">{`>`}</span> fetch affiliations</p>
+                  <p>-- EC-Council Nexus CTF Community</p>
+                  <p><span className="text-primary">{`>`}</span> scan current_projects</p>
                   <p className="animate-pulse">-- Scanning...</p>
-                  <p>-- Adversarial robustness in LLMs</p>
-                  <p>-- Automated vulnerability discovery via RL</p>
+                  <p>-- Smart IDS/IPS (ML-powered detection)</p>
+                  <p>-- VulnScope CLI (vulnerability assessment)</p>
                   <p><span className="text-primary">{`>`}</span> _</p>
                 </div>
               </motion.div>
@@ -284,28 +286,32 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {[
                 {
-                  title: "Smart IDS Architecture",
-                  desc: "Next-generation Intrusion Detection System utilizing transformer models to identify zero-day network anomalies with 99.4% precision and near-zero false positives.",
-                  tags: ["PyTorch", "Rust", "eBPF", "Network"],
-                  img: imgSmartIds
+                  title: "CyberShield IDS/IPS",
+                  desc: "ML-powered Network Intrusion Detection System built with Streamlit. Features real-time packet capture, attack simulation, CICIDS2017 analytics, RandomForest classifier (99.87% accuracy), and Supabase authentication.",
+                  tags: ["Python", "Streamlit", "Supabase", "ML", "CICIDS2017"],
+                  img: imgSmartIds,
+                  github: "https://github.com/Ansh5008/Smart_IntrusionDetectionSystem"
                 },
                 {
-                  title: "Lunar Landslide Vision",
-                  desc: "Computer vision pipeline analyzing Chandrayaan-2 satellite imagery to detect and predict lunar landslides, deployed for ongoing astronomical research.",
-                  tags: ["TensorFlow", "OpenCV", "Python", "Space"],
-                  img: imgLunarLandslide
+                  title: "VulnScope",
+                  desc: "High-speed modular vulnerability assessment CLI inspired by RustScan and Gobuster. Features async port scanning, directory brute-force, subdomain enumeration, SQLi detection, and plugin-based extensibility.",
+                  tags: ["Python", "asyncio", "CLI", "Security"],
+                  img: imgLunarLandslide,
+                  github: "https://github.com/Ansh5008/vulnscope"
                 },
                 {
-                  title: "Zero-Shot Exploit Gen",
-                  desc: "Research platform utilizing large language models to autonomously generate exploit primitives from raw crash dumps and binary analysis.",
-                  tags: ["LLMs", "C++", "Assembly", "Ghidra"],
-                  img: imgReverseEngineering
+                  title: "RAG Retrieval Auditor",
+                  desc: "Retrieval integrity audit framework that evaluates quality, completeness, and trustworthiness of document retrieval in RAG pipelines — validating evidence before LLM answer generation.",
+                  tags: ["Python", "LLMs", "Ollama", "sentence-transformers"],
+                  img: imgReverseEngineering,
+                  github: "https://github.com/Ansh5008/rag_retrieval_audit"
                 },
                 {
-                  title: "Panopticon SOC",
-                  desc: "A centralized security operations platform integrating disparate threat feeds into a cohesive, actionable brutalist interface for rapid response.",
-                  tags: ["React", "Go", "Kafka", "Elastic"],
-                  img: imgCyberSurveillance
+                  title: "RoadRescue Platform",
+                  desc: "Premium full-stack on-road vehicle breakdown assistance platform with real-time SOS location sharing, OpenStreetMap reverse geocoding, and mechanic distance sorting using the Haversine formula.",
+                  tags: ["HTML/CSS/JS", "Supabase", "Geolocation API"],
+                  img: imgCyberSurveillance,
+                  github: "https://github.com/Ansh5008/OnRoad-Vehicle-Breakdown-Assitance"
                 }
               ].map((project, i) => (
                 <motion.div 
@@ -330,11 +336,15 @@ export default function Home() {
                       ))}
                     </div>
                     <div className="flex gap-4">
-                      <Button className="rounded-none border-2 border-foreground shadow-sm bg-foreground text-background hover:bg-foreground/90">
-                        <Github className="w-4 h-4 mr-2" /> Source
+                      <Button className="rounded-none border-2 border-foreground shadow-sm bg-foreground text-background hover:bg-foreground/90" asChild>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-2" /> Source
+                        </a>
                       </Button>
-                      <Button variant="outline" className="rounded-none border-2 border-foreground shadow-sm">
-                        <ExternalLink className="w-4 h-4 mr-2" /> Details
+                      <Button variant="outline" className="rounded-none border-2 border-foreground shadow-sm" asChild>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-2" /> Details
+                        </a>
                       </Button>
                     </div>
                   </div>
@@ -360,22 +370,16 @@ export default function Home() {
             <div className="relative border-l-2 border-background/20 pl-8 ml-4 space-y-16">
               {[
                 {
-                  year: "2022 — PRESENT",
-                  role: "Senior Security Engineer",
-                  org: "Palantir Technologies",
-                  details: "Lead red team operator for critical infrastructure endpoints. Developed proprietary fuzzing framework resulting in 40+ zero-day discoveries in vendor appliances. Architected adversarial ML training pipeline."
+                  year: "2024",
+                  role: "CTF Competitor — #21 Worldwide",
+                  org: "EC-Council Nexus AI Security CTF",
+                  details: "Achieved global rank #21 in the EC-Council Nexus AI Security CTF, competing against security researchers worldwide. Demonstrated expertise in AI-driven attack strategies and adversarial ML exploitation techniques."
                 },
                 {
-                  year: "2020 — 2022",
-                  role: "AI Research Scientist",
-                  org: "OpenAI",
-                  details: "Focused on alignment and security of large language models. Developed jailbreak evaluation suites and contributed to the safety architecture of GPT-3. Published 3 papers on prompt injection vectors."
-                },
-                {
-                  year: "2018 — 2020",
-                  role: "Vulnerability Researcher",
-                  org: "Offensive Security",
-                  details: "Core contributor to Kali Linux toolchain. Discovered and documented exploitation techniques for complex heap overflows. Taught advanced exploitation masterclasses."
+                  year: "2023 — PRESENT",
+                  role: "Security Tool Developer",
+                  org: "Independent / Open Source",
+                  details: "Built and published VulnScope, a modular vulnerability assessment CLI. Developed CyberShield IDS/IPS as an ML-powered network intrusion detection system with Streamlit and Supabase, and created the RAG Retrieval Audit framework for LLM security research."
                 }
               ].map((exp, i) => (
                 <motion.div 
@@ -404,11 +408,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="font-bold text-2xl tracking-tighter shrink-0">RECOGNIZED BY:</div>
             <div className="flex flex-wrap justify-center gap-8 md:gap-16 font-mono text-xl md:text-3xl font-bold opacity-80 uppercase tracking-widest">
-              <span>DEFCON</span>
-              <span>DARPA</span>
-              <span>BLACKHAT</span>
-              <span>MITRE</span>
-              <span>SYNACK</span>
+              <span>EC-COUNCIL</span>
+              <span>NEXUS CTF</span>
+              <span>GITHUB</span>
+              <span>OPEN SOURCE</span>
             </div>
           </div>
         </section>
@@ -424,29 +427,35 @@ export default function Home() {
             >
               <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">INITIATE<br/>PROTOCOL.</h2>
               <p className="text-xl text-muted-foreground mb-12 max-w-md">
-                Available for elite red team engagements, AI security consulting, and high-impact research collaborations.
+                Available for AI security research collaborations, open-source security tooling, and CTF team engagements.
               </p>
               
               <div className="space-y-6 font-mono">
                 <div className="flex items-center gap-4 border-2 border-foreground p-4 bg-card">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span>secure.comm@johndoe.tech</span>
+                  <span>anshkumar5008@github.com</span>
                 </div>
                 <div className="flex items-center gap-4 border-2 border-foreground p-4 bg-card">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span>Base: San Francisco, CA / Global</span>
+                  <span>Base: New Delhi, India 🇮🇳</span>
                 </div>
               </div>
               
               <div className="flex gap-4 mt-12">
-                <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none">
-                  <Github className="w-5 h-5" />
+                <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none" asChild>
+                  <a href="https://github.com/Ansh5008" target="_blank" rel="noopener noreferrer">
+                    <Github className="w-5 h-5" />
+                  </a>
                 </Button>
-                <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none">
-                  <Terminal className="w-5 h-5" />
+                <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none" asChild>
+                  <a href="https://linkedin.com/in/ansh-kumar008" target="_blank" rel="noopener noreferrer">
+                    <Network className="w-5 h-5" />
+                  </a>
                 </Button>
-                <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none">
-                  <Network className="w-5 h-5" />
+                <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none" asChild>
+                  <a href="https://x.com/anshkumar5008" target="_blank" rel="noopener noreferrer">
+                    <Terminal className="w-5 h-5" />
+                  </a>
                 </Button>
               </div>
             </motion.div>
@@ -482,9 +491,9 @@ export default function Home() {
         {/* FOOTER */}
         <footer className="border-t-2 border-foreground py-12 px-6 bg-foreground text-background">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="font-bold text-2xl tracking-tighter">JD.</div>
+            <div className="font-bold text-2xl tracking-tighter">AK.</div>
             <div className="font-mono text-sm text-background/60">
-              © {new Date().getFullYear()} JOHN DOE. ALL SYSTEMS SECURE.
+              © {new Date().getFullYear()} ANSH KUMAR. ALL SYSTEMS SECURE.
             </div>
             <div className="font-mono text-sm bg-primary text-primary-foreground px-3 py-1 font-bold">
               SYS_STATUS: NOMINAL

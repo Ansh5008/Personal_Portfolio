@@ -1,14 +1,19 @@
-John Doe
-Cybersecurity Researcher | AI Developer
-john.doe@example.com
+Ansh Kumar
+AI Security Researcher | CTF Enthusiast | Security Tool Builder
+anshkumar5008@github.com
+
+LOCATION
+New Delhi, India
 
 EXPERIENCE
-- Senior Security Engineer at Acme Corp (2022-Present)
-- AI Developer at TechNexus (2020-2022)
+- Security Tool Developer, Independent / Open Source (2023–Present)
+- CTF Competitor, EC-Council Nexus AI Security CTF (#21 Worldwide, 2024)
 
-EDUCATION
-- MS Computer Science, Stanford University
-- BS Computer Engineering, MIT
+PROJECTS
+- CyberShield IDS/IPS (ML-powered network IDS with Streamlit + CICIDS2017 + Supabase auth)
+- VulnScope (modular vulnerability assessment CLI)
+- RAG Retrieval Auditor (retrieval integrity audit framework for RAG)
+- RoadRescue Platform (full-stack SOS roadside assistance with geolocation and mechanic distance sorting)
 
 SKILLS
-Python, C++, Go, Rust, Machine Learning, Reverse Engineering, Red Teaming, Vulnerability Research, Cloud Security (AWS/GCP).
+Python, Rust, AI/Machine Learning, LLM Security, CTF, Exploit Development, Vulnerability Research, Threat Intelligence, Network Architecture, Cryptography, OSINT, Cloud Security.
