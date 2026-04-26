@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { 
   ArrowRight, 
   Terminal, 
@@ -32,7 +32,7 @@ import imgCyberSurveillance from "@/assets/projects/cyber-surveillance.png";
 import imgReverseEngineering from "@/assets/projects/reverse-engineering.png";
 import imgSecurityAutomation from "@/assets/projects/security-automation.png";
 
-const FADE_IN = {
+const FADE_IN: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } }
 };
