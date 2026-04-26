@@ -1,5 +1,5 @@
 Ansh Kumar
-AI Security Researcher | Cybersecurity Researcher | Security Engineer
+AI Security Researcher | CTF Enthusiast | Security Tool Builder
 anshkumar5008@github.com
 
 LOCATION
@@ -10,10 +10,10 @@ EXPERIENCE
 - CTF Competitor, EC-Council Nexus AI Security CTF (#21 Worldwide, 2024)
 
 PROJECTS
-- CyberShield IDS/IPS (ML-powered intrusion detection and prevention)
+- CyberShield IDS/IPS (ML-powered network IDS with Streamlit + CICIDS2017 + Supabase auth)
 - VulnScope (modular vulnerability assessment CLI)
 - RAG Retrieval Auditor (retrieval integrity audit framework for RAG)
-- RoadRescue Platform (real-time roadside assistance platform)
+- RoadRescue Platform (full-stack SOS roadside assistance with geolocation and mechanic distance sorting)
 
 SKILLS
-Python, Rust, AI/Machine Learning, Reverse Engineering, Red Teaming, Vulnerability Research, Threat Intelligence, Network Architecture, Cryptography, OSINT, Cloud Security.
+Python, Rust, AI/Machine Learning, LLM Security, CTF, Exploit Development, Vulnerability Research, Threat Intelligence, Network Architecture, Cryptography, OSINT, Cloud Security.

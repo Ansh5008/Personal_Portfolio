@@ -100,13 +100,13 @@ export default function Home() {
               </motion.h1>
               
               <motion.div variants={FADE_IN} className="flex flex-wrap gap-4 mb-8 text-lg md:text-xl font-medium tracking-tight">
-                <span className="bg-foreground text-background px-4 py-1 border-2 border-foreground">Cybersecurity Researcher</span>
-                <span className="border-2 border-foreground px-4 py-1">AI Developer</span>
-                <span className="bg-primary text-primary-foreground px-4 py-1 border-2 border-primary">Security Engineer</span>
+                <span className="bg-foreground text-background px-4 py-1 border-2 border-foreground">AI Security Researcher</span>
+                <span className="border-2 border-foreground px-4 py-1">CTF Enthusiast</span>
+                <span className="bg-primary text-primary-foreground px-4 py-1 border-2 border-primary">Security Tool Builder</span>
               </motion.div>
               
               <motion.p variants={FADE_IN} className="text-xl md:text-2xl max-w-2xl text-muted-foreground mb-12 leading-relaxed">
-                I build intelligent attack surfaces and fortify AI systems. At the intersection of adversarial machine learning and offensive security — crafting tools that don't just detect threats, they outthink them.
+                I build AI security systems and offensive-security tooling. At the intersection of adversarial machine learning and practical cyber defense — shipping tools that detect, test, and harden real-world systems.
               </motion.p>
               
               <motion.div variants={FADE_IN} className="flex flex-wrap gap-6">
@@ -287,8 +287,8 @@ export default function Home() {
               {[
                 {
                   title: "CyberShield IDS/IPS",
-                  desc: "Production-ready ML-powered Intrusion Detection & Prevention System trained on CICIDS2017 dataset. Features real-time WebSocket streaming, RandomForest classifier with 99.87% accuracy, and a Next.js SOC dashboard.",
-                  tags: ["Python", "FastAPI", "Next.js", "Supabase", "ML"],
+                  desc: "ML-powered Network Intrusion Detection System built with Streamlit. Features real-time packet capture, attack simulation, CICIDS2017 analytics, RandomForest classifier (99.87% accuracy), and Supabase authentication.",
+                  tags: ["Python", "Streamlit", "Supabase", "ML", "CICIDS2017"],
                   img: imgSmartIds,
                   github: "https://github.com/Ansh5008/Smart_IntrusionDetectionSystem"
                 },
@@ -308,7 +308,7 @@ export default function Home() {
                 },
                 {
                   title: "RoadRescue Platform",
-                  desc: "Full-stack emergency roadside assistance platform with real-time SOS location sharing, reverse geocoding via OpenStreetMap, and mechanic distance sorting using the Haversine formula.",
+                  desc: "Premium full-stack on-road vehicle breakdown assistance platform with real-time SOS location sharing, OpenStreetMap reverse geocoding, and mechanic distance sorting using the Haversine formula.",
                   tags: ["HTML/CSS/JS", "Supabase", "Geolocation API"],
                   img: imgCyberSurveillance,
                   github: "https://github.com/Ansh5008/OnRoad-Vehicle-Breakdown-Assitance"
@@ -379,7 +379,7 @@ export default function Home() {
                   year: "2023 — PRESENT",
                   role: "Security Tool Developer",
                   org: "Independent / Open Source",
-                  details: "Built and published VulnScope, a high-speed modular vulnerability assessment CLI tool. Developed CyberShield IDS/IPS, a full-stack ML-powered intrusion detection and prevention system, and the RAG Retrieval Audit framework for LLM security research."
+                  details: "Built and published VulnScope, a modular vulnerability assessment CLI. Developed CyberShield IDS/IPS as an ML-powered network intrusion detection system with Streamlit and Supabase, and created the RAG Retrieval Audit framework for LLM security research."
                 }
               ].map((exp, i) => (
                 <motion.div 
@@ -427,7 +427,7 @@ export default function Home() {
             >
               <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">INITIATE<br/>PROTOCOL.</h2>
               <p className="text-xl text-muted-foreground mb-12 max-w-md">
-                Available for AI security research collaborations, CTF team engagements, and ML-driven security tool development.
+                Available for AI security research collaborations, open-source security tooling, and CTF team engagements.
               </p>
               
               <div className="space-y-6 font-mono">
