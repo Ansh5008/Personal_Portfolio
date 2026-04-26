@@ -211,7 +211,6 @@ export default function Home() {
                   <p>-- LLM Security & Adversarial ML</p>
                   <p>-- Exploit Development & Vuln Analysis</p>
                   <p><span className="text-primary">{`>`}</span> fetch affiliations</p>
-                  <p>-- AI-Twining-2024-2028 Research Org</p>
                   <p>-- EC-Council Nexus CTF Community</p>
                   <p><span className="text-primary">{`>`}</span> scan current_projects</p>
                   <p className="animate-pulse">-- Scanning...</p>
@@ -371,12 +370,6 @@ export default function Home() {
             <div className="relative border-l-2 border-background/20 pl-8 ml-4 space-y-16">
               {[
                 {
-                  year: "2024 — PRESENT",
-                  role: "AI Security Researcher",
-                  org: "AI-Twining Research Organization",
-                  details: "Conducting research at the intersection of adversarial machine learning and cybersecurity. Focused on LLM security, prompt injection vectors, and intelligent threat detection. Member of the AI-Twining-2024-2028 international research program."
-                },
-                {
                   year: "2024",
                   role: "CTF Competitor — #21 Worldwide",
                   org: "EC-Council Nexus AI Security CTF",
@@ -417,7 +410,6 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-8 md:gap-16 font-mono text-xl md:text-3xl font-bold opacity-80 uppercase tracking-widest">
               <span>EC-COUNCIL</span>
               <span>NEXUS CTF</span>
-              <span>AI-TWINING</span>
               <span>GITHUB</span>
               <span>OPEN SOURCE</span>
             </div>
