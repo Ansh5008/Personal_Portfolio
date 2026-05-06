@@ -2,7 +2,7 @@ import { existsSync } from "node:fs";
 import { spawn } from "node:child_process";
 
 const isRenderRuntime = Boolean(process.env.RENDER_SERVICE_ID);
-const hasBuiltPortfolio = existsSync("artifacts/portfolio/dist/public/index.html");
+const hasBuiltPortfolio = existsSync("artifacts/portfolio/dist/index.html");
 const pnpmCmd = process.platform === "win32" ? "corepack pnpm" : "pnpm";
 
 const command =
