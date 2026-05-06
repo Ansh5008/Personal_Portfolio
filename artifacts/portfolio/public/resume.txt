@@ -1,19 +1,25 @@
-Ansh Kumar
-AI Security Researcher | CTF Enthusiast | Security Tool Builder
-anshkumar5008@github.com
+Ansh
+Cybersecurity Researcher & AI Security Enthusiast
+anshkumar5008@gmail.com
+
+LINKS
+GitHub: https://github.com/Ansh5008
+LinkedIn: https://www.linkedin.com/in/ansh-kumar008/
+Portfolio: https://personal-portfolio-pu8k.onrender.com
 
 LOCATION
 New Delhi, India
 
-EXPERIENCE
-- Security Tool Developer, Independent / Open Source (2023–Present)
-- CTF Competitor, EC-Council Nexus AI Security CTF (#21 Worldwide, 2024)
-
 PROJECTS
-- CyberShield IDS/IPS (ML-powered network IDS with Streamlit + CICIDS2017 + Supabase auth)
-- VulnScope (modular vulnerability assessment CLI)
-- RAG Retrieval Auditor (retrieval integrity audit framework for RAG)
-- RoadRescue Platform (full-stack SOS roadside assistance with geolocation and mechanic distance sorting)
+- TruthWeaverProject (AI-powered misinformation and fact verification platform)
+- HealthMate- (Smart healthcare assistance platform)
+- VulnScope (Cybersecurity vulnerability analysis and reconnaissance)
+- OnRoad Vehicle Breakdown Assistance (Emergency roadside support platform)
+- Smart IDS using AI (AI-powered intrusion detection system)
+- Lunar Landslide Detection (Computer vision system using Chandrayaan imagery)
+- Cyber Defense & Surveillance Research (Scalable surveillance and cyber defense)
+- Image Captioning AI (Deep learning image captioning with ResNet + LSTM)
+- Vulnerability Research & CVE Analysis (Exploit analysis and CVE investigations)
 
 SKILLS
-Python, Rust, AI/Machine Learning, LLM Security, CTF, Exploit Development, Vulnerability Research, Threat Intelligence, Network Architecture, Cryptography, OSINT, Cloud Security.
+Python, Linux, Kali Linux, OSINT, Network Security, Burp Suite, Nmap, Wireshark, AI/ML, Web Security, Git & GitHub, Automation.

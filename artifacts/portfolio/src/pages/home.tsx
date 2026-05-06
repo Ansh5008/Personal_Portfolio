@@ -96,17 +96,17 @@ export default function Home() {
               
               <motion.h1 variants={FADE_IN} className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.9] mb-8">
                 ANSH<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style={{ WebkitTextStroke: "2px currentColor" }}>KUMAR</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style={{ WebkitTextStroke: "2px currentColor" }}>&nbsp;</span>
               </motion.h1>
               
               <motion.div variants={FADE_IN} className="flex flex-wrap gap-4 mb-8 text-lg md:text-xl font-medium tracking-tight">
-                <span className="bg-foreground text-background px-4 py-1 border-2 border-foreground">AI Security Researcher</span>
-                <span className="border-2 border-foreground px-4 py-1">CTF Enthusiast</span>
-                <span className="bg-primary text-primary-foreground px-4 py-1 border-2 border-primary">Security Tool Builder</span>
+                <span className="bg-foreground text-background px-4 py-1 border-2 border-foreground">Cybersecurity Researcher</span>
+                <span className="border-2 border-foreground px-4 py-1">AI Security Enthusiast</span>
+                <span className="bg-primary text-primary-foreground px-4 py-1 border-2 border-primary">Offensive Security</span>
               </motion.div>
               
               <motion.p variants={FADE_IN} className="text-xl md:text-2xl max-w-2xl text-muted-foreground mb-12 leading-relaxed">
-                I build AI security systems and offensive-security tooling. At the intersection of adversarial machine learning and practical cyber defense — shipping tools that detect, test, and harden real-world systems.
+                I specialize in cybersecurity research, offensive security, AI security, OSINT, vulnerability analysis, and automation tooling — building intelligent detection systems and advanced security experimentation platforms.
               </motion.p>
               
               <motion.div variants={FADE_IN} className="flex flex-wrap gap-6">
@@ -130,12 +130,12 @@ export default function Home() {
                   <p className="font-bold">New Delhi, India</p>
                 </div>
                 <div>
-                  <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">CTF Rank</h3>
-                  <p className="font-bold">#21 Worldwide</p>
+                  <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">Focus</h3>
+                  <p className="font-bold">Offensive Security</p>
                 </div>
                 <div>
                   <h3 className="font-mono text-xs text-muted-foreground mb-1 uppercase tracking-widest">Specialty</h3>
-                  <p className="font-bold">LLM Security</p>
+                  <p className="font-bold">AI Security & OSINT</p>
                 </div>
               </div>
             </div>
@@ -174,7 +174,7 @@ export default function Home() {
                     Security is not a product — it's a mindset. In a world where AI is woven into critical systems, the only researchers who matter are those who understand both the attack and the intelligence behind it.
                   </p>
                   <p>
-                    I'm Ansh Kumar, an AI Security Researcher and CTF enthusiast based in New Delhi. I build tools at the intersection of Machine Learning and Cybersecurity — from ML-powered intrusion detection systems to vulnerability assessment CLIs and RAG retrieval audit frameworks.
+                    I'm Ansh, a Cybersecurity Researcher and AI Security Enthusiast based in New Delhi. I specialize in offensive security, OSINT, vulnerability analysis, and automation tooling — actively working on security research projects, intelligent detection systems, and advanced cybersecurity experimentation.
                   </p>
                   <p>
                     My methodology: map the adversary, model the threat, then build intelligent defenses that adapt. I don't just use tools — I engineer the systems that power tomorrow's security operations.
@@ -183,18 +183,18 @@ export default function Home() {
                 
                 <motion.div variants={FADE_IN} className="mt-12 flex items-center gap-8 border-y-2 border-foreground py-6">
                   <div>
-                    <div className="text-4xl font-bold">#21</div>
-                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Global CTF Rank</div>
-                  </div>
-                  <div className="w-[2px] h-12 bg-foreground" />
-                  <div>
-                    <div className="text-4xl font-bold">26+</div>
+                    <div className="text-4xl font-bold">9+</div>
                     <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Projects Built</div>
                   </div>
                   <div className="w-[2px] h-12 bg-foreground" />
                   <div>
-                    <div className="text-4xl font-bold">EC-Council</div>
-                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Nexus AI CTF</div>
+                    <div className="text-4xl font-bold">OSINT</div>
+                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Research Focus</div>
+                  </div>
+                  <div className="w-[2px] h-12 bg-foreground" />
+                  <div>
+                    <div className="text-4xl font-bold">AI/ML</div>
+                    <div className="text-sm font-mono text-muted-foreground uppercase mt-1">Security Systems</div>
                   </div>
                 </motion.div>
               </div>
@@ -208,14 +208,14 @@ export default function Home() {
                   <p><span className="text-primary">{`>`}</span> init user_profile</p>
                   <p className="text-green-600">[OK] Profile loaded</p>
                   <p><span className="text-primary">{`>`}</span> fetch research_focus</p>
-                  <p>-- LLM Security & Adversarial ML</p>
-                  <p>-- Exploit Development & Vuln Analysis</p>
-                  <p><span className="text-primary">{`>`}</span> fetch affiliations</p>
-                  <p>-- EC-Council Nexus CTF Community</p>
+                  <p>-- Offensive Security & OSINT</p>
+                  <p>-- AI Security & Vulnerability Analysis</p>
+                  <p><span className="text-primary">{`>`}</span> fetch tools</p>
+                  <p>-- Burp Suite, Nmap, Wireshark, Kali Linux</p>
                   <p><span className="text-primary">{`>`}</span> scan current_projects</p>
                   <p className="animate-pulse">-- Scanning...</p>
-                  <p>-- Smart IDS/IPS (ML-powered detection)</p>
-                  <p>-- VulnScope CLI (vulnerability assessment)</p>
+                  <p>-- Smart IDS (AI-powered detection)</p>
+                  <p>-- VulnScope (security reconnaissance)</p>
                   <p><span className="text-primary">{`>`}</span> _</p>
                 </div>
               </motion.div>
@@ -245,16 +245,16 @@ export default function Home() {
               className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-0 border-2 border-foreground bg-foreground gap-[2px] p-[2px]"
             >
               {[
-                { name: "Reverse Engineering", icon: Terminal },
-                { name: "AI / Machine Learning", icon: Cpu },
-                { name: "Red Teaming", icon: Shield },
-                { name: "Python / Rust", icon: Code },
-                { name: "Vulnerability Research", icon: Search },
-                { name: "Cloud Security", icon: Server },
-                { name: "Threat Intelligence", icon: Eye },
-                { name: "Network Architecture", icon: Network },
-                { name: "Cryptography", icon: Lock },
+                { name: "Python", icon: Code },
+                { name: "Linux / Kali Linux", icon: Terminal },
                 { name: "OSINT", icon: Database },
+                { name: "Network Security", icon: Network },
+                { name: "Burp Suite", icon: Shield },
+                { name: "Nmap", icon: Search },
+                { name: "Wireshark", icon: Eye },
+                { name: "AI / ML", icon: Cpu },
+                { name: "Web Security", icon: Lock },
+                { name: "Git & Automation", icon: Server },
               ].map((skill, i) => (
                 <motion.div 
                   key={i}
@@ -286,30 +286,30 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {[
                 {
-                  title: "CyberShield IDS/IPS",
-                  desc: "ML-powered Network Intrusion Detection System built with Streamlit. Features real-time packet capture, attack simulation, CICIDS2017 analytics, RandomForest classifier (99.87% accuracy), and Supabase authentication.",
-                  tags: ["Python", "Streamlit", "Supabase", "ML", "CICIDS2017"],
+                  title: "TruthWeaverProject",
+                  desc: "AI-powered misinformation and fact verification platform focused on identifying manipulated or misleading content using intelligent analysis and automated verification techniques.",
+                  tags: ["Python", "AI/ML", "NLP", "Automation"],
                   img: imgSmartIds,
-                  github: "https://github.com/Ansh5008/Smart_IntrusionDetectionSystem"
+                  github: "https://github.com/Ansh5008/TruthWeaverProject"
+                },
+                {
+                  title: "HealthMate",
+                  desc: "Smart healthcare assistance platform designed to provide intelligent health-related support, guidance, and user-focused medical assistance features.",
+                  tags: ["Python", "AI", "Healthcare Tech"],
+                  img: imgLunarLandslide,
+                  github: "https://github.com/Ansh5008/HealthMate-"
                 },
                 {
                   title: "VulnScope",
-                  desc: "High-speed modular vulnerability assessment CLI inspired by RustScan and Gobuster. Features async port scanning, directory brute-force, subdomain enumeration, SQLi detection, and plugin-based extensibility.",
-                  tags: ["Python", "asyncio", "CLI", "Security"],
-                  img: imgLunarLandslide,
+                  desc: "Cybersecurity-focused vulnerability analysis and reconnaissance project designed for security research, detection workflows, and technical security experimentation.",
+                  tags: ["Python", "Cybersecurity", "Vuln Research", "OSINT"],
+                  img: imgReverseEngineering,
                   github: "https://github.com/Ansh5008/vulnscope"
                 },
                 {
-                  title: "RAG Retrieval Auditor",
-                  desc: "Retrieval integrity audit framework that evaluates quality, completeness, and trustworthiness of document retrieval in RAG pipelines — validating evidence before LLM answer generation.",
-                  tags: ["Python", "LLMs", "Ollama", "sentence-transformers"],
-                  img: imgReverseEngineering,
-                  github: "https://github.com/Ansh5008/rag_retrieval_audit"
-                },
-                {
-                  title: "RoadRescue Platform",
-                  desc: "Premium full-stack on-road vehicle breakdown assistance platform with real-time SOS location sharing, OpenStreetMap reverse geocoding, and mechanic distance sorting using the Haversine formula.",
-                  tags: ["HTML/CSS/JS", "Supabase", "Geolocation API"],
+                  title: "OnRoad Vehicle Breakdown Assistance",
+                  desc: "Platform focused on helping users during vehicle breakdown situations by connecting assistance services and improving emergency roadside support workflows.",
+                  tags: ["Web Dev", "Assistance Platform", "Automation"],
                   img: imgCyberSurveillance,
                   github: "https://github.com/Ansh5008/OnRoad-Vehicle-Breakdown-Assitance"
                 }
@@ -370,16 +370,16 @@ export default function Home() {
             <div className="relative border-l-2 border-background/20 pl-8 ml-4 space-y-16">
               {[
                 {
-                  year: "2024",
-                  role: "CTF Competitor — #21 Worldwide",
-                  org: "EC-Council Nexus AI Security CTF",
-                  details: "Achieved global rank #21 in the EC-Council Nexus AI Security CTF, competing against security researchers worldwide. Demonstrated expertise in AI-driven attack strategies and adversarial ML exploitation techniques."
+                  year: "2024 — PRESENT",
+                  role: "Cybersecurity Researcher & AI Security Enthusiast",
+                  org: "Independent Research & Open Source",
+                  details: "Actively conducting security research across offensive security, OSINT, AI security, and vulnerability analysis. Built intelligent detection systems, automated security tooling, and advanced cybersecurity experimentation platforms including Smart IDS, VulnScope, and TruthWeaver."
                 },
                 {
                   year: "2023 — PRESENT",
                   role: "Security Tool Developer",
                   org: "Independent / Open Source",
-                  details: "Built and published VulnScope, a modular vulnerability assessment CLI. Developed CyberShield IDS/IPS as an ML-powered network intrusion detection system with Streamlit and Supabase, and created the RAG Retrieval Audit framework for LLM security research."
+                  details: "Developed VulnScope for cybersecurity vulnerability analysis, TruthWeaverProject for AI-powered misinformation detection, HealthMate for smart healthcare assistance, and Smart IDS using AI for intelligent intrusion detection. Also contributed to lunar landslide detection research and image captioning AI systems."
                 }
               ].map((exp, i) => (
                 <motion.div 
@@ -408,10 +408,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="font-bold text-2xl tracking-tighter shrink-0">RECOGNIZED BY:</div>
             <div className="flex flex-wrap justify-center gap-8 md:gap-16 font-mono text-xl md:text-3xl font-bold opacity-80 uppercase tracking-widest">
-              <span>EC-COUNCIL</span>
-              <span>NEXUS CTF</span>
               <span>GITHUB</span>
+              <span>LINKEDIN</span>
               <span>OPEN SOURCE</span>
+              <span>AI SECURITY</span>
             </div>
           </div>
         </section>
@@ -427,13 +427,13 @@ export default function Home() {
             >
               <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">INITIATE<br/>PROTOCOL.</h2>
               <p className="text-xl text-muted-foreground mb-12 max-w-md">
-                Available for AI security research collaborations, open-source security tooling, and CTF team engagements.
+                Available for cybersecurity research collaborations, open-source security tooling, and AI security engagements.
               </p>
               
               <div className="space-y-6 font-mono">
                 <div className="flex items-center gap-4 border-2 border-foreground p-4 bg-card">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span>anshkumar5008@github.com</span>
+                  <span>anshkumar5008@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4 border-2 border-foreground p-4 bg-card">
                   <MapPin className="w-5 h-5 text-primary" />
@@ -448,13 +448,13 @@ export default function Home() {
                   </a>
                 </Button>
                 <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none" asChild>
-                  <a href="https://linkedin.com/in/ansh-kumar008" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/ansh-kumar008/" target="_blank" rel="noopener noreferrer">
                     <Network className="w-5 h-5" />
                   </a>
                 </Button>
                 <Button size="icon" variant="outline" className="w-12 h-12 border-2 border-foreground rounded-none" asChild>
-                  <a href="https://x.com/anshkumar5008" target="_blank" rel="noopener noreferrer">
-                    <Terminal className="w-5 h-5" />
+                  <a href="mailto:anshkumar5008@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <Mail className="w-5 h-5" />
                   </a>
                 </Button>
               </div>
@@ -493,7 +493,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="font-bold text-2xl tracking-tighter">AK.</div>
             <div className="font-mono text-sm text-background/60">
-              © {new Date().getFullYear()} ANSH KUMAR. ALL SYSTEMS SECURE.
+              © {new Date().getFullYear()} ANSH. ALL SYSTEMS SECURE.
             </div>
             <div className="font-mono text-sm bg-primary text-primary-foreground px-3 py-1 font-bold">
               SYS_STATUS: NOMINAL
