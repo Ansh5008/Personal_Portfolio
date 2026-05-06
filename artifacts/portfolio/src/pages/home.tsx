@@ -95,7 +95,7 @@ export default function Home() {
               </motion.div>
               
               <motion.h1 variants={FADE_IN} className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.9] mb-8">
-                ANSH<br />
+                ANSH KUMAR<br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70" style={{ WebkitTextStroke: "2px currentColor" }}>&nbsp;</span>
               </motion.h1>
               
@@ -174,7 +174,7 @@ export default function Home() {
                     Security is not a product — it's a mindset. In a world where AI is woven into critical systems, the only researchers who matter are those who understand both the attack and the intelligence behind it.
                   </p>
                   <p>
-                    I'm Ansh, a Cybersecurity Researcher and AI Security Enthusiast based in New Delhi. I specialize in offensive security, OSINT, vulnerability analysis, and automation tooling — actively working on security research projects, intelligent detection systems, and advanced cybersecurity experimentation.
+                    I'm Ansh Kumar, a Cybersecurity Researcher and AI Security Enthusiast based in New Delhi. I specialize in offensive security, OSINT, vulnerability analysis, and automation tooling — actively working on security research projects, intelligent detection systems, and advanced cybersecurity experimentation.
                   </p>
                   <p>
                     My methodology: map the adversary, model the threat, then build intelligent defenses that adapt. I don't just use tools — I engineer the systems that power tomorrow's security operations.
@@ -493,7 +493,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="font-bold text-2xl tracking-tighter">AK.</div>
             <div className="font-mono text-sm text-background/60">
-              © {new Date().getFullYear()} ANSH. ALL SYSTEMS SECURE.
+              © {new Date().getFullYear()} ANSH KUMAR. ALL SYSTEMS SECURE.
             </div>
             <div className="font-mono text-sm bg-primary text-primary-foreground px-3 py-1 font-bold">
               SYS_STATUS: NOMINAL
